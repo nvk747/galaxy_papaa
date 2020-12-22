@@ -18,5 +18,5 @@ COPY config/data_library.yaml $GALAXY_ROOT/data_library.yaml
 ENV GALAXY_CONFIG_TOOL_PATH=/galaxy-central/tools/
 RUN startup_lite && \
     galaxy-wait && \
-    workflow-install --workflow_path $GALAXY_ROOT/workflows/ -g http://localhost:8080 -u $GALAXY_DEFAULT_ADMIN_USER -p $GALAXY_DEFAULT_ADMIN_PASSWORD
-    setup-data-libraries -i $GALAXY_ROOT/data_library.yaml -g http://localhost:8080 -u $GALAXY_DEFAULT_ADMIN_USER -p $GALAXY_DEFAULT_ADMIN_PASSWORD
+    workflow-install --workflow_path $GALAXY_ROOT/workflows/ -g http://localhost:8888 -u $GALAXY_DEFAULT_ADMIN_USER -p $GALAXY_DEFAULT_ADMIN_PASSWORD
+    setup-data-libraries -i $GALAXY_ROOT/data_library.yaml -g http://localhost:8888 -u $GALAXY_DEFAULT_ADMIN_USER -p $GALAXY_DEFAULT_ADMIN_PASSWORD
