@@ -23,7 +23,7 @@ To launch papaa using DOCKER:
 docker pull nvk747/galaxy_papaa:0.1.9
 
 # run the galaxy_papaa container
-docker run -i -t -p 8888:80 nvk747/galaxy_papaa:0.1.9
+docker run --publish 8888:80 --detach nvk747/galaxy_papaa:0.1.9
 
 # view the galaxy_papaa instance in web browser
 open: http://localhost:8888/ in a new window and use papaa tools

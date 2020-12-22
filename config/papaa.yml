@@ -1,15 +1,15 @@
 ---
 
 api_key: fakekey
-galaxy_instance: http://localhost:8080
+galaxy_instance: http://localhost:8888
 install_repository_dependencies: true
 install_resolver_dependencies: true
 install_tool_dependencies: false
 
 tools:
-- name: papaa_suite
+- name: suite_papaa
   owner: vijay
-  tool_panel_section_label: "PAPAA"
+  tool_panel_section_label: "papaa"
 
 
 
