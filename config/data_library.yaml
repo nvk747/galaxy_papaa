@@ -84,7 +84,7 @@ items:
         info: https://zenodo.org/record/4306639#.X9FJF-lKgZE
       - url: https://zenodo.org/api/files/9c1a32d0-dba1-4481-ad9f-1aac03c83e61/pancan_GISTIC_threshold.tsv.gz
         src: url
-        ext: gz
+        ext: tabular
         info: https://zenodo.org/record/4306639#.X9FJF-lKgZE
       - url: https://zenodo.org/api/files/9c1a32d0-dba1-4481-ad9f-1aac03c83e61/pancan_mutation_freeze.tsv.gz
         src: url
