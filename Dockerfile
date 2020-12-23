@@ -20,7 +20,8 @@ COPY config/data_library.yaml $GALAXY_ROOT/data_library.yaml
 COPY install-workflows /usr/bin/
 COPY install-libraries /usr/bin/
 ENV GALAXY_CONFIG_TOOL_PATH=/galaxy-central/tools/
-RUN install-workflows $GALAXY_HOME/workflows/ --publish_workflows
+RUN install-workflows $GALAXY_HOME/workflows/ --publish_workflows && \
+    rm -rf /export/galaxy-central/
 RUN install-libraries $GALAXY_ROOT/data_library.yaml && \
     rm -f /export/galaxy-central/database/files/url_paste* && \
     mkdir -p $GALAXY_ROOT/database/files && \
