@@ -29,6 +29,7 @@ COPY config/bin/install-libraries /usr/bin/
 COPY config/data_library.yaml $GALAXY_HOME/build_assets/data_libraries/data_library.yaml
 RUN install-libraries $GALAXY_HOME/build_assets/data_libraries/data_library.yaml && \
     rm -f /export/galaxy-central/database/files/url_paste* && \
+    rm -f /export/galaxy-central/database/files/strio_url_paste* && \
     mkdir -p $GALAXY_ROOT/database/files && \
     mv /export/galaxy-central/database/files/* $GALAXY_ROOT/database/files/ && \
     rm -rf /export/galaxy-central/
