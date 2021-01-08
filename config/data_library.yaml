@@ -13,22 +13,26 @@ items:
       - url: https://zenodo.org/api/files/9c1a32d0-dba1-4481-ad9f-1aac03c83e61/CCLE_DepMap_18Q1_maf_20180207.txt.gz
         src: url
         ext: txt
-        info: https://zenodo.org/record/4306639#.X9FJF-lKgZE
+        info: Publicly available Mutational data for CCLE cell lines from Broad Institute Cancer Cell Line Encyclopedia. https://zenodo.org/record/4306639#.X9FJF-lKgZE
         auto_decompress: true
+        name: CCLE_DepMap_18Q1_maf_20180207.txt
       - url: https://zenodo.org/api/files/9c1a32d0-dba1-4481-ad9f-1aac03c83e61/CCLE_MUT_CNA_AMP_DEL_binary_Revealer.tsv.gz
         src: url
         ext: tabular
-        info: https://zenodo.org/record/4306639#.X9FJF-lKgZE
+        info: Publicly available merged Mutational and copy number alterations that include gene amplifications and deletions for the CCLE cell lines. https://zenodo.org/record/4306639#.X9FJF-lKgZE
         auto_decompress: true
+        name: CCLE_MUT_CNA_AMP_DEL_binary_Revealer.tsv
       - url: https://zenodo.org/api/files/9c1a32d0-dba1-4481-ad9f-1aac03c83e61/ccle_rnaseq_genes_rpkm_20180929_mod.tsv.gz
         src: url
         ext: tabular
-        info: https://zenodo.org/record/4306639#.X9FJF-lKgZE
+        info: Publicly available Expression data for 1019 cell lines (RPKM) from Broad Institute Cancer Cell Line Encyclopedia. https://zenodo.org/record/4306639#.X9FJF-lKgZE
         auto_decompress: true
+        name: ccle_rnaseq_genes_rpkm_20180929_mod.tsv
       - url: https://zenodo.org/api/files/9c1a32d0-dba1-4481-ad9f-1aac03c83e61/compounds_of_interest.txt
         src: url
         ext: txt
-        info: https://zenodo.org/record/4306639#.X9FJF-lKgZE
+        info: This file contains the compounds of interest for generation of pharmacological correlations with classifier scores. https://zenodo.org/record/4306639#.X9FJF-lKgZE
+        name: compounds_of_interest
       - url: https://zenodo.org/api/files/9c1a32d0-dba1-4481-ad9f-1aac03c83e61/copy_number_gain_status.tsv.gz
         src: url
         ext: tabular
@@ -42,7 +46,7 @@ items:
       - url: https://zenodo.org/api/files/9c1a32d0-dba1-4481-ad9f-1aac03c83e61/cosmic_cancer_classification.tsv
         src: url
         ext: tabular
-        info: https://zenodo.org/record/4306639#.X9FJF-lKgZE
+        info: Compendium of OG and TSG used for the analysis. https://zenodo.org/record/4306639#.X9FJF-lKgZE
       - url: https://zenodo.org/api/files/9c1a32d0-dba1-4481-ad9f-1aac03c83e61/EBPlusPlusAdjustPANCAN_IlluminaHiSeq_RNASeqV2.geneExp.tsv
         src: url
         ext: tabular
@@ -50,23 +54,27 @@ items:
       - url: https://zenodo.org/api/files/9c1a32d0-dba1-4481-ad9f-1aac03c83e61/gdsc1_ccle_pharm_fitted_dose_data.txt.gz
         src: url
         ext: txt
-        info: https://zenodo.org/record/4306639#.X9FJF-lKgZE
+        info: Pharmacological data for GDSC-1 cell lines. This data was subset to 379 cell lines that are common among CCLE and GDSC. https://zenodo.org/record/4306639#.X9FJF-lKgZE
         auto_decompress: true
+        name: gdsc1_ccle_pharm_fitted_dose_data.txt
       - url: https://zenodo.org/api/files/9c1a32d0-dba1-4481-ad9f-1aac03c83e61/gdsc2_ccle_pharm_fitted_dose_data.txt.gz
         src: url
         ext: txt
-        info: https://zenodo.org/record/4306639#.X9FJF-lKgZE
+        info: Pharmacological data for GDSC-2 cell lines. This data was subset to 347 cell lines that are common among CCLE and GDSC. https://zenodo.org/record/4306639#.X9FJF-lKgZE
         auto_decompress: true
+        name: gdsc2_ccle_pharm_fitted_dose_data.txt
       - url: https://zenodo.org/api/files/9c1a32d0-dba1-4481-ad9f-1aac03c83e61/GDSC_CCLE_common_mut_cnv_binary.tsv.gz
         src: url
         ext: tabular
-        info: https://zenodo.org/record/4306639#.X9FJF-lKgZE
+        info: A subset of merged Mutational and copy number alterations that include gene amplifications and deletions for common cell lines between GDSC and CCLE. https://zenodo.org/record/4306639#.X9FJF-lKgZE
         auto_decompress: true
+        name: GDSC_CCLE_common_mut_cnv_binary.tsv
       - url: https://zenodo.org/api/files/9c1a32d0-dba1-4481-ad9f-1aac03c83e61/GDSC_EXP_CCLE_converted_name.tsv.gz
         src: url
         ext: tabular
-        info: https://zenodo.org/record/4306639#.X9FJF-lKgZE
+        info: Publicly available RMA normalized expression data for Genomics of Drug Sensitivity in Cancer cell lines https://zenodo.org/record/4306639#.X9FJF-lKgZE
         auto_decompress: true
+        name: GDSC_EXP_CCLE_converted_name
       - url: https://zenodo.org/api/files/9c1a32d0-dba1-4481-ad9f-1aac03c83e61/GSE69822_pi3k_sign.txt
         src: url
         ext: txt
@@ -91,7 +99,7 @@ items:
       - url: https://zenodo.org/api/files/9c1a32d0-dba1-4481-ad9f-1aac03c83e61/mutation_burden_freeze.tsv
         src: url
         ext: tabular
-        info: https://zenodo.org/record/4306639#.X9FJF-lKgZE
+        info: Generating mutational burden from Publicly available Mutational information for TCGA Pan-cancer dataset. https://zenodo.org/record/4306639#.X9FJF-lKgZE
       - url: https://zenodo.org/api/files/9c1a32d0-dba1-4481-ad9f-1aac03c83e61/pancan_GISTIC_threshold.tsv.gz
         src: url
         ext: tabular
@@ -100,12 +108,12 @@ items:
       - url: https://zenodo.org/api/files/9c1a32d0-dba1-4481-ad9f-1aac03c83e61/pancan_mutation_freeze.tsv.gz
         src: url
         ext: tabular
-        info: https://zenodo.org/record/4306639#.X9FJF-lKgZE
+        info: Publicly available Mutational information for TCGA Pan-cancer dataset. Fhttps://zenodo.org/record/4306639#.X9FJF-lKgZE
         auto_decompress: true
       - url: https://zenodo.org/api/files/9c1a32d0-dba1-4481-ad9f-1aac03c83e61/pancan_rnaseq_freeze.tsv.gz
         src: url
         ext: tabular
-        info: https://zenodo.org/record/4306639#.X9FJF-lKgZE
+        info: Publicly available gene expression data for the TCGA Pan-cancer dataset. https://zenodo.org/record/4306639#.X9FJF-lKgZE
         auto_decompress: true
       - url: https://zenodo.org/api/files/9c1a32d0-dba1-4481-ad9f-1aac03c83e61/path_cell_cycle_genes.txt
         src: url
@@ -130,7 +138,7 @@ items:
       - url: https://zenodo.org/api/files/9c1a32d0-dba1-4481-ad9f-1aac03c83e61/sample_freeze.tsv
         src: url
         ext: tabular
-        info: https://zenodo.org/record/4306639#.X9FJF-lKgZE
+        info: The file lists the frozen samples as determined by TCGA PanCancer Atlas consortium. https://zenodo.org/record/4306639#.X9FJF-lKgZE
       - url: https://zenodo.org/api/files/9c1a32d0-dba1-4481-ad9f-1aac03c83e61/sampleset_freeze_version4_modify.csv
         src: url
         ext: csv
