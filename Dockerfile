@@ -32,3 +32,7 @@ RUN install-libraries $GALAXY_HOME/build_assets/data_libraries/data_library.yaml
     mkdir -p $GALAXY_ROOT/database/files && \
     mv /export/galaxy-central/database/files/* $GALAXY_ROOT/database/files/ && \
     rm -rf /export/galaxy-central/
+
+# Container Style
+ADD galaxy_papaa_logo.png $GALAXY_CONFIG_DIR/web/welcome_image.png
+ADD welcome.html $GALAXY_CONFIG_DIR/web/welcome.html
