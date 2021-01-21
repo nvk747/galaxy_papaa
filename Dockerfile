@@ -34,5 +34,5 @@ RUN install-libraries $GALAXY_HOME/build_assets/data_libraries/data_library.yaml
     rm -rf /export/galaxy-central/
 
 # Container Style
-ADD assets/galaxy_papaa_logo.png $GALAXY_CONFIG_DIR/web/welcome_image.png
-ADD assets/welcome.html $GALAXY_CONFIG_DIR/web/welcome.html
+COPY assets/galaxy_papaa_logo.png $GALAXY_CONFIG_DIR/web/welcome_image.png
+COPY assets/welcome.html $GALAXY_CONFIG_DIR/web/welcome.html
